@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ices-auth-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ices-auth-db?createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+server:
+  port: 8085
+
+
